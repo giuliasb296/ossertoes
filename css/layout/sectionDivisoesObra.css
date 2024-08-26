@@ -1,0 +1,101 @@
+#divisoesObra {
+    height: 550px;
+    background:  var(--cor-verde);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.organizacaoDivisoes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+
+
+.descricoes {
+    text-align: center;
+    line-height: 1.3;
+}
+
+
+h3 {
+    color: var(--cor-verde-claro);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+#containersPartesObra {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.temasObra{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0px 6px gray;
+    border-radius: 12px;
+    padding: 16px;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    margin-left: 27.5px;
+    display: flex;
+}
+
+
+.icons{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulosTemas {
+    height: 35%;
+}
+
+#linha{
+    width: 82%;
+    height: 36px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.hoverText {
+    display: none; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    background-color: white; 
+    color: var(--cor-preta);
+    padding: 16px; 
+    border-radius: 12px; 
+    z-index: 10; 
+    width: 100%;
+    height: 100%; 
+    text-align: center;
+}
+
+.temasObra:hover .hoverText {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
+

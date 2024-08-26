@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   
+   :root {
+      --gradient: linear-gradient(to bottom, #FF2459 25%, #FF4365 75%);
+      font-family: 'Poppins', sans-serif;
+      --cor-preta: #151515;
+      --cor-verde: #042C2F;
+      --cor-verde-claro: #5F8A8C;
+      --cor-rosa: #FF2459;
+      --cor-rosa-claro: #FF4365;
+      --cor-bege: #FFEDED;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth; 
+  }
+
+ 

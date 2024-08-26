@@ -1,0 +1,19 @@
+h1 {
+    font-weight: 100;
+    font-size: 48px;
+
+}
+
+#Obra {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#breveDescricaoObra{
+    width: 90%;
+    text-align: justify;
+}

@@ -1,0 +1,20 @@
+#sobreAutor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#biografiaAutor{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoBiografia{
+    margin-top: 10px;
+    text-align: justify;
+}
+
